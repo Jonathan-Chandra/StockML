@@ -1,0 +1,10 @@
+{   
+    "APCA-API-BASE-URL": "https://paper-api.alpaca.markets/v2/account",
+    "ALPACA_API_CLIENT_ID": "ENTER_CLIENT_ID_HERE",
+    "ALPACA_API_CLIENT_SECRET": "ENTER_CLIENT_SECRET_HERE",
+
+    "Alpaca_Creds":{
+        "APCA-API-KEY-ID": "ENTER_API_KEY_ID_HERE",
+        "APCA-API-SECRET-KEY": "ENTER_API_SECRET_KEY_HERE"
+    }
+}
