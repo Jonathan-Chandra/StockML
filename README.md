@@ -1,4 +1,4 @@
-# StockAI: Algorithmic Stock Trading AI
+# StockML: Algorithmic Stock Trading ML
 
 ## Table of Contents
 
