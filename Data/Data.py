@@ -1,20 +1,13 @@
-""" StockAI
-
-This script allows the user to print to the console all columns in the
-spreadsheet. It is assumed that the first row of the spreadsheet is the
-location of the columns.
-
+""" Setup
 Dependencies/Modules:
-    json
+    json, os, pymongo
 
 functions:
     * main - the main function of the script
 """
-import json
 import os
-import alpaca_trade_api as trade_api
-import logging
-
+import pymongo
+import json
 
 def log():
     logger = logging.getLogger(__name__)  
@@ -23,7 +16,7 @@ def log():
     logger.setLevel(logging.DEBUG)
 
     # define file handler and set formatter
-    file_handler = logging.FileHandler('StockML.log')
+    file_handler = logging.FileHandler('StockMLData.log')
     formatter    = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(message)s')
     file_handler.setFormatter(formatter)
 
@@ -37,15 +30,11 @@ def log():
     #logger.error('A Major error has happened.')
     #logger.critical('Fatal error. Cannot continue')
 
-
-def getConfig():
-    with open("config.json") as config_file:
-        data = json.load(config_file)
-    return(data)
+def updateTickers():
+    os.system('YahooTickerDownloader.py')
 
 def main():
     log()
-    print(getConfig())
-
+    return 0
 if __name__ == "__main__":
     main()

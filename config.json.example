@@ -6,5 +6,7 @@
     "Alpaca_Creds":{
         "APCA-API-KEY-ID": "ENTER_API_KEY_ID_HERE",
         "APCA-API-SECRET-KEY": "ENTER_API_SECRET_KEY_HERE"
-    }
+    },
+
+    "mongodb":"ENTER_MONGO_DB_STRING_HERE"
 }

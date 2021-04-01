@@ -48,3 +48,5 @@ Run the following script in your kernel: `pip install -r requirements.txt`
 [Machine Learning for Stock Trading](https://www.education-ecosystem.com/andreybu/l9kEd-machine-learning-for-stock-trading/9b4Dv-intro-video-machine-learning-for-stock-trading/)
 
 [shilewenuw/get_all_tickers](https://github.com/shilewenuw/get_all_tickers)
+
+[Machine Learning Plus](https://www.machinelearningplus.com/python/python-logging-guide/)
