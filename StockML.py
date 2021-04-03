@@ -14,6 +14,7 @@ import json
 import os
 import alpaca_trade_api as trade_api
 import logging
+import http.client
 
 
 def log():
@@ -46,6 +47,7 @@ def getConfig():
 def main():
     log()
     print(getConfig())
+    print(os.path.dirname(os.path.realpath(__file__)))
 
 if __name__ == "__main__":
     main()

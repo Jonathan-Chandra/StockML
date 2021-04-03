@@ -34,7 +34,8 @@ def updateTickers():
     os.system('YahooTickerDownloader.py')
 
 def main():
-    log()
+    #log()
+    print(os.path.join(os.path.dirname(__file__), '..'))
     return 0
 if __name__ == "__main__":
     main()
